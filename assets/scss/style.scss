@@ -1,0 +1,36 @@
+/*=== abstracts css start === */
+@import 'abstracts/fonts';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+/*===// end of abstracts css === */
+
+
+/*=== base css start === */
+@import 'base/global';
+@import 'base/config';
+@import 'base/utility';
+/*===// end of base css === */
+
+
+/*=== components css start === */
+@import 'components/buttons';
+@import 'components/icon';
+@import 'components/slick';
+@import 'components/home-page';
+@import 'components/card-custom';
+/*===// end of components css === */
+
+
+/*=== layouts css start === */
+@import 'layouts/navbar';
+@import 'layouts/footer';
+@import 'layouts/slider';
+/*===// end of layouts css === */
+
+
+
+/*=== pages start === */
+
+/*===// end of pages  === */
+
+

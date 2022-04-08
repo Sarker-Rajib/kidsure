@@ -1,0 +1,65 @@
+/*
+.slick-dots {
+   position: absolute;
+   top: 50%;
+   right: 20px;
+   transform: translateY(-50%);
+   z-index: 1500;
+   li {
+      position: relative;
+      width: 20px;
+      height: 20px;
+      border: 2px solid #744FA0;
+      border-radius: 50%;
+      margin: 5px;
+      cursor: pointer;
+
+      &.slick-active::before {
+         content: '';
+         width: 10px;
+         height: 10px;
+         background: #744FA0;
+         border-radius: 50%;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+      }
+      button {
+         font-size: 0;
+         padding: 0;
+         border: none;
+      }
+   }
+}
+
+*/
+
+.slick-arrow {
+   border-radius: 50%;
+   background-color: rgb(255, 255, 255);
+   box-shadow: 0px 15px 80px 20px rgba(0, 0, 0, 0.1);
+   border: none;
+   width: 70px;
+   height: 70px;   
+   transition: all 0.3s linear;
+}
+
+.slick-arrow:hover{
+   background-color: #517abf;
+}
+
+.slick-next.slick-arrow{
+   font-size: 20px;
+   position: absolute;
+   bottom: -80px;
+   left: 50%;
+ 
+ }
+ 
+ .slick-prev.slick-arrow{
+   font-size: 20px;
+   position: absolute;
+   bottom: -80px;
+   left: 46%;
+}
